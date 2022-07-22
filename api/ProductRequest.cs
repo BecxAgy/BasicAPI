@@ -1,0 +1,2 @@
+public record ProductRequest(string Code, string Nome, string Description, int CategoryId, List<string>Tags);
+//uma representação da classe product(payload - carga útil - feito para não sujar a entidade com campos desnecessários)
